@@ -1,0 +1,36 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local settings and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Runtime data
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Assignment brief is local reference only (must never be submitted)
+과제 안내.md
